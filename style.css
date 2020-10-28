@@ -1,0 +1,85 @@
+
+
+ body{
+     font-family: Roboto;
+}
+
+.primary{
+    background-color: #090967;
+}
+.primary-text{
+    color: #00008b; 
+}
+.primary-text:hover{
+    color: #7272f2;
+}
+.primary_back{
+    background-color: #E3E2DF;
+}
+.secondary{
+    background-color: #0000d6;
+}
+.secondary-text{
+    color: #0000d6;
+}
+.light-primary{
+    background-color: #3d3dff;
+    color: white;
+}
+.light-primary:hover{
+    background-color: #7c7cff; 
+    color: black;
+}
+.secondary_back{
+    background-color: #9797ff;
+}
+.lead-white{
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.sub-white{
+    color:#ffffff;
+}
+.inline{
+    display: inline-block;
+}
+
+
+
+.width-max{
+    max-width: 100%;
+    height: 200px; 
+}
+
+.hover-img:hover{
+    opacity: 0.8;
+    transition: 0.5s ease-out;
+/*    border:1px solid grey;*/
+    
+}
+
+.hover-text:hover{
+    text-decoration: underline;
+}
+
+.img-full_1{ 
+    height: 240px;
+    background-image: url(projexts.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-full_2{ 
+    height: 240px;
+    background-image: url(teach_back.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-full_3{ 
+    height: 240px;
+    background-image: url(data1.jpg);
+    background-position: center;
+    background-size: cover;
+}

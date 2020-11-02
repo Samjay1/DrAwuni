@@ -45,6 +45,9 @@
     display: inline-block;
 }
 
+.justify{
+    text-align: justify;
+}
 
 
 .width-max{

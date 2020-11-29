@@ -86,3 +86,37 @@
     background-position: center;
     background-size: cover;
 }
+
+
+.post{
+    background-color: aqua;
+    width: 360px;
+    height: 60px;
+    display: flex;
+    margin: 5px 0;
+}
+.post .image{
+    width: 100px;
+    height: 60px;
+    background-image: url(images/thumbnail.png); 
+    background-size: cover;
+}
+.post .content{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.post .bottom{
+    position:inherit;
+    bottom: 0%;
+/*    border: 2px solid red;*/
+    margin: 0;
+    text-align: right;
+}
+
+.my-shadow{
+    box-shadow: 2px 2px 2px grey;
+}

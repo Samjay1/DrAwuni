@@ -118,5 +118,8 @@
 }
 
 .my-shadow{
-    box-shadow: 2px 2px 2px grey;
+    box-shadow: 3px 3px 10px #d0d0d0;
+}
+.child-shadow{
+    box-shadow: 1px 1px 5px #d0d0d0;
 }
